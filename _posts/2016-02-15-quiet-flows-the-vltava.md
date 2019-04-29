@@ -48,6 +48,7 @@ It would stay with him for a very long time.
 Business had started early at the shop, with the usual stock of customers - tourists stopping by before heading to the old town square, enticed by the syrupy sweet smell wafting forth from within. He took his place beside the others behind the counter and started rolling the warm fluffy Trdelníks in sprinklings of cinnamon, sugar and vanilla. It was a brisk day for business, and he could see that the astronomical clock was going to have more than a few admirers today for its hourly chiming.
 
 ![Charles Bridge]({{ site.baseurl }}/imgs/vltava/7.jpg){: .post-image}
+
 ![Charles Bridge]({{ site.baseurl }}/imgs/vltava/8.jpg){: .post-image}
 
 Things slowed down towards late afternoon, and by evening a massive thunderstorm was threatening the skies. The scare of his stepfather's last outburst had dwindled and the boy felt a sudden longing to watch the thunderstorm from the top of the tower. There wouldn't be any tourists, and Hohlenstein wouldn't close the place till much later in the evening, so they could probably have a nice long chat watching the wind bring in the clouds. He ran up as fast as his feet could take him. Hohlenstein wasn't in his usual perch, but sat outside on the lookout balcony crouched over one of the sections of the wooden parapet facing the bridge. He removed two of the planks and loosened the others around them.
