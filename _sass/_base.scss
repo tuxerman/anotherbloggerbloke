@@ -14,7 +14,7 @@ dl, dd, ol, ul, figure {
 $horizontal-spacing-unit:       40px;
 $vertical-spacing-unit:         65px;
 $nav-height:                    56px;
-$link-fade-secs:                .35s;
+$link-fade-secs:                .20s;
 
 /* portfolio tinkering */
 $img_spacing: 5px; 
@@ -31,7 +31,6 @@ $lime_green: #B7D12A;
 $readable_lime_green: #a9c026;
 $purple: #B509AC;
 
-
 $grey-color-dark: #333333;   /* footer */
 $grey-color-light: #ddd;  /* navigation bar border */
 $text-color:     $grey-color-dark;
@@ -40,7 +39,6 @@ $header-link-color:    #262626;
 /* Set theme color *************************/
 $theme-color:   $red;
 $header-background: #EEE;
-
 
 /************************************************************/
 
@@ -56,7 +54,6 @@ body {
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
 }
-
 
 
 /**
@@ -79,7 +76,6 @@ hr{
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-
 }
 
 
@@ -93,7 +89,6 @@ figure > img {
 figcaption {
     font-size: $small-font-size;
 }
-
 
 
 /**
@@ -111,13 +106,12 @@ li {
 }
 
 
-
 /**
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
     font-family: $title-font-family;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 
