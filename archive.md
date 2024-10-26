@@ -3,6 +3,7 @@ layout: page
 title: archive
 icon: <i class="fa fa-suitcase"></i>
 permalink: /archive/
+include_in_header: true
 ---
 
 <table style="border-collapse: collapse;">
