@@ -3,7 +3,7 @@ name: Build and Deploy 11ty
 on:
   push:
     branches:
-      - 11ty-migration
+      - gh-pages
 
 permissions:
   contents: read
