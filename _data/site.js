@@ -1,7 +1,7 @@
 const isProd = process.env.ELEVENTY_ENV === 'production';
 
 module.exports = {
-  title: "see.pha.",
+  title: "Leaflight",
   description: "",
   baseurl: isProd ? "/anotherbloggerbloke" : "",
   url: "https://tuxerman.github.io"
