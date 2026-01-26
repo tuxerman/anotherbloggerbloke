@@ -1,8 +1,8 @@
 ---
 layout: page
-title: about
+title: About
 icon: <i class="fa fa-user"></i>
-permalink: /about/
+permalink: "{{ pathPrefix }}about/"
 include_in_header: true
 ---
 

@@ -1,7 +1,10 @@
 ---
 layout: default
-pagination: 
-  enabled: true
+pagination:
+  data: collections.posts
+  size: 4
+  alias: posts
+permalink: "{{ pathPrefix }}{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}/{% endif %}"
 ---
 
 
@@ -14,19 +17,14 @@ pagination:
 </div>
 
 <ul class="post-list">
-    {% for post in paginator.posts %}
+    {% for post in posts %}
       <li>
-        <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
-        {% if site.show_full_posts %}
-        <p>{{ post.content }}
-        {% else %}
-        <p>{{ post.excerpt }}
-        <a class="continue-button" href="{{ post.url | prepend: site.baseurl }}">
+        <h2><a class="post-title" href="{{ post.url }}">{{ post.data.title }}</a></h2>
+        <p class="post-meta">{{ post.data.date | postDate }}</p>
+        <p>{{ post.templateContent | excerpt }}
+        <a class="continue-button" href="{{ post.url }}">
         • • •
         </a>
-       
-        {% endif %}
         </p>
         <hr/>
       </li>
@@ -35,15 +33,14 @@ pagination:
 
 
 <div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="previous"><i class="fa fa-angle-double-left"></i> &nbsp; Newer</a>
+  {% if pagination.href.previous %}
+    <a href="{{ pagination.href.previous }}" class="previous"><i class="fa fa-angle-double-left"></i> &nbsp; Newer</a>
   {% else %}
     <span class="previous"></span>
   {% endif %}
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <!-- <span class="page_number ">&nbsp;&nbsp; • {{ paginator.page }} / {{ paginator.total_pages }} • &nbsp;&nbsp;</span> -->
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="next">Older &nbsp;<i class="fa fa-angle-double-right"></i></a>
+  {% if pagination.href.next %}
+    <a href="{{ pagination.href.next }}" class="next">Older &nbsp;<i class="fa fa-angle-double-right"></i></a>
   {% else %}
     <span class="next "></span>
   {% endif %}

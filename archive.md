@@ -1,35 +1,30 @@
 ---
 layout: page
-title: archive
+title: Archive
 icon: <i class="fa fa-suitcase"></i>
-permalink: /archive/
+permalink: "{{ pathPrefix }}archive/"
 include_in_header: true
 ---
 
 <table style="border-collapse: collapse;">
-    {% for post in site.posts %}
-    {% unless post.next %}
-        <tr>
-        <td class="archive-year">{{ post.date | date: '%Y' }}</td>
-        </tr>
-    {% else %}
-    {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-    {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-    {% if year != nyear %}
-        <tr style="padding-top: 3em;">
-        <td class="archive-year">{{ post.date | date: '%Y' }}</td>
-        </tr>
-    {% endif %}
-    {% endunless %}
+    {% assign currentYear = "" %}
+    {% for post in collections.posts %}
+        {% assign postYear = post.data.date | year %}
+        {% if postYear != currentYear %}
+            <tr>
+            <td class="archive-year">{{ postYear }}</td>
+            </tr>
+            {% assign currentYear = postYear %}
+        {% endif %}
         <tr>
         <td width="20%" align="right">
-        {{ post.date  | date: '%b %d'}}
+        {{ post.data.date | archiveDate }}
         </td>
         <td width="10%" align="center">
         &nbsp; &nbsp; • &nbsp; &nbsp;
         </td>
         <td width="70%" align="left">
-        <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
+        <a href="{{ post.url }}">{{ post.data.title }}</a>
         </td>
         </tr>
     {% endfor %}
