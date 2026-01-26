@@ -17,14 +17,9 @@ The hanky. I cannot stress the importance of this enough. This is not school. Go
 
 Meanwhile, as you were expelling the atomised gas-liquid mixture at a force of many g's, the people around should have ideally just felt a butterfly take off or heard something like a distant door gently click shut. The trick to the entire gesture is subtlety. Reserve all the loud sneezes and the various vocabulary experiments (Hash you, Wah Bishop, Hashish, etc) for the more tolerant confines of your living room. The only thing that should give away what you were up to over the past two seconds is your post-incident, dignified request that everyone around excuse your action.
 
-Needless to say, if you're the kind that regularly leases shoulder real-estate to worried and troubled  females (a gentlemanly pursuit, no doubt), make sure you have an extra, unused set of hankies before you offer them to the troubled female in question. 
-
 Don't hoard. This is commonly seen with kids, and some of us don't really grow up. The tendency to stock liquid reserves up the nose and, owing to the precariously vertical means of storage, snort every now and then to keep the damn thing from making a quick prison break of sorts. Gravity is your biggest enemy for the day and unless you're the space shuttle you are not going to win. Hence it is better to stop fighting for a lost cause and head to the nearest restroom to clear up matters. Do not make a rush for it, as it conveys a different sense of urgency that might shed bad light on whoever shared their lunch with you for the day. Stroll on, and veer sharply once in close proximity to the place. Once in, make sure the wash basins are completely empty (Do not mind the fact that there might be someone behind the toilet doors - chances are that the noises they have to stifle are more embarrassing than what you are about to sound forth). Blow your nose hard, wash your face and leave. 
 
-On the way back to your seat, beam at the person sitting nearby whom you've always liked a lot, and nod politely at the office boy. Silent breathing for at least an hour.
-It also saves  your index finger from having to take a trip across your upper lip every few minutes, like this:
-
-![]({{ site.baseurl }}/imgs/jason_bateman_sleeve.jpg){: .post-image}
+On the way back to your seat, beam at the person sitting nearby whom you've always liked a lot, and nod politely at the office boy. Silent breathing for at least an hour. It also saves your index finger from having to take a trip across your upper lip every few minutes.
 
 Finally, keep in mind that your olfactory superpowers might not be in full force this day, and hence if you are working in environments where you rely solely and crucially on the smell of LPG, smoke or frying molaka bajjis to make sudden and quick getaways, you are advised to keep a trustworthy assistant handy.
 

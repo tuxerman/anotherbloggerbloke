@@ -1,0 +1,15 @@
+{
+  "name": "seepha-blog",
+  "version": "1.0.0",
+  "description": "See Pha blog - powered by 11ty",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "ELEVENTY_ENV=production eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

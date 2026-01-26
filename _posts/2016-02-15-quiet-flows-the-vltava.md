@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Quiet flows the Vltava
+date: 2016-02-15
 bloggerlink: http://anotherbloggerbloke.blogspot.com/2016/02/quiet-flows-vltava.html
 ---
 
