@@ -83,11 +83,11 @@ a {
   -webkit-transition: 0.2s;
   transition: 0.2s; }
   a:hover {
-    color: #6ab04c; /* ACCENT COLOR */
+    color: #a9c026; /* ACCENT COLOR */
     text-decoration: none; }
 
 article a {
-  color: #6ab04c; /* ACCENT COLOR */ }
+  color: #a9c026; /* ACCENT COLOR */ }
   article a:hover {
     color: #333333;
     text-decoration: underline; }
@@ -172,7 +172,7 @@ pre {
   margin-bottom: 0; }
   .site-title:hover {
     text-decoration: none;
-    color: #6ab04c; /* ACCENT COLOR */ }
+    color: #a9c026; /* ACCENT COLOR */ }
 
 .site-nav {
   float: right;
@@ -207,7 +207,7 @@ pre {
   line-height: 3em;
   z-index: 25; }
   .header-bar h1 {
-    color: #6ab04c; /* ACCENT COLOR */
+    color: #a9c026; /* ACCENT COLOR */
     font-size: 75px; }
   .header-bar h2 {
     font-size: 25px; }
@@ -239,7 +239,7 @@ pre {
 .paginationicon {
   font-size: 50px; }
   .paginationicon a {
-    color: #6ab04c; /* ACCENT COLOR */ }
+    color: #a9c026; /* ACCENT COLOR */ }
 
 /**
  * "Continue reading" dots   **********************************************************
@@ -251,7 +251,7 @@ pre {
   margin-top: 1em;
   background: #FFF;
   line-height: 2em;
-  color: #6ab04c; /* ACCENT COLOR */
+  color: #a9c026; /* ACCENT COLOR */
   text-align: center; }
 
 a.continue-button {
@@ -307,7 +307,7 @@ a.continue-button:hover {
   margin-bottom: 48.75px; }
 
 .post-title {
-  color: #6ab04c; /* ACCENT COLOR */
+  color: #a9c026; /* ACCENT COLOR */
   font-size: 32px;
   letter-spacing: -1px;
   line-height: 1.5; }
@@ -315,7 +315,7 @@ a.continue-button:hover {
     .post-title {
       font-size: 28px; } }
   .post-title a {
-    color: #6ab04c; /* ACCENT COLOR */ }
+    color: #a9c026; /* ACCENT COLOR */ }
   .post-title a:hover {
     text-decoration: none;
     color: #333333; }
@@ -471,7 +471,7 @@ a.continue-button:hover {
  * Portfolio pages **********************************************************
 */
 .blankbox {
-  background: #6ab04c; /* ACCENT COLOR */ }
+  background: #a9c026; /* ACCENT COLOR */ }
 
 .img_row {
   height: 275px;
